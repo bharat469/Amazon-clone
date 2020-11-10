@@ -1,0 +1,65 @@
+.whole{
+    display: flex;
+   
+  justify-content: space-evenly;
+  margin-top: 247px;
+  background-color: #131921;
+  padding: 12px 12px;
+  color: #fff;
+}
+
+.know,.connect,.money,.help {
+    cursor: pointer;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+
+}
+
+ul:hover{
+    text-decoration: underline;
+}
+
+
+.secondpart{
+    display: flex;
+    justify-content: center;
+    padding: 12px 12px;
+    background-color: #131921;
+}
+
+.country a{
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.last{
+    display: flex;
+justify-content: center;
+background-color: #111;
+}
+
+.link a{
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link span{
+    color: #fff;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    .know,.connect,.money,.help{
+        font-size: 10px !important;
+       
+    } 
+}
